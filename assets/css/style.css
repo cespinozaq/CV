@@ -1,0 +1,144 @@
+/* mmmmmmmmmmmmmmmmmmmmm-BODY-mmmmmmmmmmmmmmmmmmmmmmmmm */
+
+body {
+  background-image: url(../img/bg.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Source Code Pro", monospace;
+  padding-bottom: 100px;
+  color: #ccf7ff;
+  box-sizing: border-box;
+}
+
+/* mmmmmmmmmmmmmmmmmmmmm-MAIN-mmmmmmmmmmmmmmmmmmmmmmmmm */
+
+main {
+  display: flex;
+  justify-content: center;
+}
+/* mmmmmmmmmmmmmmmmmmm-MAIN-SECTION-mmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+.section {
+  max-width: 900px;
+  margin: 30px;
+}
+
+.box-title {
+  margin-bottom: 20px;
+}
+
+.box-3 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-img img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+/* mmmmmmmmmmmmmmmmmmmmm-NAV-mmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+.navbar {
+  background: linear-gradient(#004e5c, rgba(0, 0, 0, 0.3));
+}
+
+.navbar-toggler {
+  background-color: rgba(0, 4, 5, 0.267);
+}
+
+.nav-link {
+  color: #2dadc4;
+}
+
+/* mmmmmmmmmmmmmmmmmmmmmmm-FOOTER-mmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+footer .navbar {
+  background: linear-gradient(rgba(0, 0, 0, 0), #004e5c);
+}
+
+.box-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.box-footer a {
+  color: #ccf7ff;
+}
+
+.img-footer {
+  width: 15%;
+}
+
+/* mmmmmmmmmmmmmmmmmmmmmmm-ACORDION-INDEX-mmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+.accordion-item {
+  background-color: transparent;
+  color: #ccf7ff;
+}
+
+.accordion-button {
+  background-color: #004e5c;
+  color: #ccf7ff;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #004e5c;
+  background-color: #ccf7ff;
+}
+
+/* mmmmmmmmmmmmmmmmmmmmmmm-BOX-EXPERIENCIA-mmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+.paragraphs-exp {
+  background-color: #004e5c;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* mmmmmmmmmmmmmmmmmmmmmmm-CARD-FORMACION-mmmmmmmmmmmmmmmmmmmmmmmmmmm */
+.card {
+  font-size: medium;
+  text-align: center;
+  border: solid 3px #ccf7ff;
+  background-color: transparent;
+}
+
+.card-details {
+  color: #ccf7ff;
+}
+
+.card-title {
+  background-color: #004e5c;
+  border-radius: 8px;
+  padding: 5px;
+  color: #ccf7ff;
+}
+
+/* mmmmmmmmmmmmmmmmmmmmm-CAROUSEL-PORTAFOLIO-mmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+.btn {
+  background-color: #004e5c;
+  color: #ccf7ff;
+}
+
+/* mmmmmmmmmmmmmmmmmmmmmmm-FORMULARIO-CONTACTOS-mmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+.container-expand-lg {
+  width: 900px;
+}
+
+.formulario-contacto {
+  display: flex;
+  justify-content: center;
+}
