@@ -1,4 +1,5 @@
-# Prueba " Desarrollo de portafolio" -- Introducción al desarrollo web
+# Prueba 1: "Desarrollo de portafolio"
+
 
 ## - **Link CV:** https://cespinozaq.github.io/CV/
 
